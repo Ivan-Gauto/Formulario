@@ -1,0 +1,24 @@
+body {
+    background-image: url(fondo.jpg);
+    background-size: 1000px;
+    text-align: center;
+    left: 100px;
+}
+    
+h1 {
+    font-family: sans-serif;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    font-family: 'Trebuchet MS';
+}
+
+fieldset {
+    margin-left: 270px;
+    margin-right: 270px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgba(156, 119, 119, 0.5);
+}

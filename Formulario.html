@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Formulario.css" rel="stylesheet" type="text/css"/>
+        <title>Inscripcion</title>
+    </head>
+    <body>
+        <header>
+            <h1>formulario</h1>
+        </header>
+    <main>
+        <fieldset>
+        <label>introduce tu nombre:
+            <input type="text" required />
+        </label>
+        <label>introduce tu apellido:
+            <input type="text" required />
+        </label>
+        <label>introduce tu email:
+            <input type="email" required />
+        <label>introduce tu contraseña:
+            <input type="password" required pattern="[a-z0-5]{8,}" />
+        <label>    
+            Estoy de acuerdo con los<a href="Terminos y condiciones.html" target="blank"> terminos 
+            y condiciones</a><input type="checkbox" required />
+        </label>
+        </label>
+            <input type="submit" value="enviar" />
+        <label>
+        </fieldset>
+    </main>
+    </body>
+</html>
